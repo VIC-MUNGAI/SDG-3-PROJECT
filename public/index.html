@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Access Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Healthcare Access Platform</h1>
+        <img src="https://images.pexels.com/photos/287237/pexels-photo-287237.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Healthcare" style="width:200; height:700;">
+    </header>
+    <main>
+        <section id="register">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="text" id="role" placeholder="Role (e.g., Patient/Provider)" required>
+                <input type="text" id="contact" placeholder="Contact Number" required>
+                <input type="text" id="address" placeholder="Address" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" id="loginEmail" placeholder="Email" required>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section id="appointments">
+            <h2>Appointment booking</h2>
+            <form id="appointmentForm">
+                <input type="text" id="provider_id" placeholder="Provider ID" required>
+                <input type="date" id="appointment_date" required>
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
